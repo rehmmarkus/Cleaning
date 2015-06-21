@@ -83,6 +83,7 @@ library(dplyr)
 data <- data[ ,2:82]
 
 # create tidy data set- group by participant (former "subject") and activity
+#         and summarize by calculating the mean for each column
 tidy_temp <- data %>% group_by(participant, activity.name) %>% summarise_each(funs(mean))
 
 # melt data to long format
