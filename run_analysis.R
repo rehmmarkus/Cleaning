@@ -8,7 +8,7 @@
 
 
 getwd()
-setwd("/Users/markushome/Desktop/UCI_HAR_Dataset")
+setwd("/Users/markushome/Desktop/UCI HAR Dataset")
 
 
 # read test set
@@ -92,5 +92,3 @@ tidy <- melt(tidy_temp, id = c("participant","activity.name"))
 
 # export to txt file
 write.table(tidy, file="tidy.txt", row.name=FALSE) 
-
-
