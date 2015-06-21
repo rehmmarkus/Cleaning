@@ -21,5 +21,5 @@ Below, I describe how I clean the data
 5. Merge the two data sets to the new data set`full`
 6. Extract all columns containing means, standard deviations, activity data and participant data
 7. Add clean names to the columns
-8. melt the data to the long format (preprocessing using `dplyr`, melt using `reshape2)
-9. export the text file
+8. melt the data to the long format (preprocessing using `dplyr`, melt using `reshape2`)
+9. export the tidy data to the text file `tidy.txt`
